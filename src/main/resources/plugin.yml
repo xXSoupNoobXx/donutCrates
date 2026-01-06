@@ -1,0 +1,34 @@
+name: donutCrates
+version: '1.1'
+main: net.soupnoob.donutCrates.DonutCrates
+api-version: '1.21'
+description: Donut Crates plugin — einfache Crate-GUIs und Konfiguration
+authors:
+  - xXSoupNoobXx
+website: https://github.com/xXSoupNoobXx/donutCrates
+
+commands:
+  donutcrates:
+    description: Öffnet das Crate-Menü
+    usage: /donutcrates
+    permission: donutcrates.admin
+  keys:
+    description: Zeigt die Keys eines Spielers an
+    usage: /keys [player]
+    permission: donutcrates.keys
+
+permissions:
+  donutcrates.admin:
+    description: Erlaubt das Benutzen des Crate-Menüs
+    default: op
+  donutcrates.keys:
+    description: Zeigt eigene Keys an
+    default: true
+  donutcrates.otherkeys:
+    description: Erlaubt das Abfragen von Keys anderer Spieler
+    default: op
+
+# optional: Abhängigkeiten (falls benötigt)
+depend: []
+softdepend:
+  - PlaceholderAPI

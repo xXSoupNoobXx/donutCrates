@@ -1,0 +1,38 @@
+# config.yml
+no-permission: '&cYou lack permission to use this.'
+fillerMaterial: GRAY_STAINED_GLASS_PANE
+
+sounds:
+  no-key: ENTITY_VILLAGER_NO
+  claim: ENTITY_EXPERIENCE_ORB_PICKUP
+  click: UI_BUTTON_CLICK
+
+
+confirm-menu:
+  title: '&#91b8ffᴄᴏɴꜰɪʀᴍ'
+  fillerEnabled: false
+  fillerMaterial: GRAY_STAINED_GLASS_PANE
+  rows: 3
+  Confirm:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 15
+    displayname: '&#0fe30fᴄᴏɴꜰɪʀᴍ'
+    lore:
+    action: confirm
+  ClickedItem:
+    slot: 13
+    displayname: '%ClickedItemName%'
+  Decline:
+    material: RED_STAINED_GLASS_PANE
+    slot: 11
+    displayname: '&#d61111ᴅᴇᴄʟɪɴᴇ'
+    lore:
+    action: decline
+
+no-keys-msg: '&cYou don''t have any keys for this crate!'
+
+messages:
+  keyreceive: '&#91b8ffYou received %amount% %crate% keys!'
+  keyall: '&#91b8ff A %crate% Keyall has been given to %players% players' # Use %amount% for the amount of keys they received
+  usage: '&cUsage: &#91b8ff' # Only the colors for the command usage message
+

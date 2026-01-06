@@ -1,0 +1,95 @@
+Crates:
+  sand:
+    rows: 3
+    fillerEnabled: true
+    fillerMaterial: GRAY_STAINED_GLASS_PANE
+    title: '&#91b8ffᴄʜᴏᴏѕᴇ 1 ɪᴛᴇᴍ'
+    Items:
+      Item1:
+        material: DIAMOND_SWORD
+        displayname: '&aCool Sword'
+        command: ''
+        amount: 1
+        slot: 10
+        giveitem: true
+        lore:
+          - '&fExample Line 1'
+          - '&fExample Line 2'
+        enchantments:
+          - UNBREAKING;3
+          - MENDING;1
+      Item2:
+        material: DIAMOND_PICKAXE
+        displayname: '&aCool Pickaxe'
+        command: ''
+        amount: 1
+        slot: 11
+        giveitem: true
+        lore:
+          - '&fExample Line 1'
+          - '&fExample Line 2'
+        enchantments:
+          - UNBREAKING;3
+          - MENDING;1
+      Item3:
+        material: DIAMOND_BOOTS
+        displayname: '&aCool Boots'
+        command: ''
+        amount: 1
+        slot: 12
+        giveitem: true
+        lore:
+          - '&fExample Line 1'
+          - '&fExample Line 2'
+        enchantments:
+          - UNBREAKING;3
+          - MENDING;1
+      Item4:
+        material: DIAMOND_LEGGINGS
+        displayname: '&aCool Leggings'
+        command: ''
+        amount: 1
+        slot: 13
+        giveitem: true
+        lore:
+          - '&fExample Line 1'
+          - '&fExample Line 2'
+        enchantments:
+          - UNBREAKING;3
+          - MENDING;1
+      Item5:
+        material: DIAMOND_CHESTPLATE
+        displayname: '&aCool Chestplate'
+        command: ''
+        amount: 1
+        slot: 14
+        giveitem: true
+        lore:
+          - '&fExample Line 1'
+          - '&fExample Line 2'
+        enchantments:
+          - UNBREAKING;3
+          - MENDING;1
+      Item6:
+        material: DIAMOND_HELMET
+        displayname: '&aCool Helmet'
+        command: ''
+        amount: 1
+        slot: 15
+        giveitem: true
+        lore:
+          - '&fExample Line 1'
+          - '&fExample Line 2'
+        enchantments:
+          - UNBREAKING;3
+          - MENDING;1
+      Item7:
+        material: GOLDEN_APPLE
+        displayname: '&7Cool Apple'
+        command: ''
+        amount: 16
+        giveitem: true
+        slot: 16
+        lore:
+          - '&fExample Line 1'
+          - '&fExample Line 2'
