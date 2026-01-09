@@ -45,7 +45,7 @@ DonutCrates ist ein leichtgewichtiges Spigot/Bukkit-Plugin zur Verwaltung von Cr
 ## Permissions:
 - `donutcrates.admin` — Alle /donutcrates commands
 - `donutcrates.keys` — /keys
-- `donutcrates.otherkeys` — /keys <Player>
+- `donutcrates.otherkeys` — /keys &lt;Player&gt;
 
 ## PlaceholderAPI
 - Identifier: `donutcrates`
