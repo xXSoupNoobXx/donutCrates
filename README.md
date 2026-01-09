@@ -26,7 +26,7 @@ DonutCrates ist ein leichtgewichtiges Spigot/Bukkit-Plugin zur Verwaltung von Cr
   - `material`, `displayname`, `amount`, `slot`, `giveitem`, `lore`, `enchantments`, `command`
 - Allgemeine Optionen in `config.yml` (z. B. `Sounds`, `Messages`).
 
-## Wichtige Commands (permission: `donutcrates.admin`)
+## Wichtige Commands
 - ` /donutcrates create <name>` — Erstelle eine Crate an der aktuell betrachteten Blockposition (Player).
 - ` /donutcrates delete <name>` — Lösche eine Crate.
 - ` /donutcrates moveblock <name>` — Verschiebe Crate auf aktuell betrachteten Block.
@@ -38,8 +38,14 @@ DonutCrates ist ein leichtgewichtiges Spigot/Bukkit-Plugin zur Verwaltung von Cr
 - ` /donutcrates editor` — Öffnet den GUI-Editor (Player).
 - ` /donutcrates reload` — Lädt Konfiguration und Daten neu.
 - ` /donutcrates list` — Listet vorhandene Crates auf.
+- ` /keys [player]` — Listet dein Keys/die Keys von [player] auf
 
 (Genauere Usage \- Hinweise werden im Spiel als Hilfetexte angezeigt.)
+
+## Permissions:
+- `donutcrates.admin` — Alle /donutcrates commands
+- `donutcrates.keys` — /keys
+- `donutcrates.otherkeys` — /keys <Player>
 
 ## PlaceholderAPI
 - Identifier: `donutcrates`
