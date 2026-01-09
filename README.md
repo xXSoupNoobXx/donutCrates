@@ -38,7 +38,7 @@ DonutCrates ist ein leichtgewichtiges Spigot/Bukkit-Plugin zur Verwaltung von Cr
 - ` /donutcrates editor` — Öffnet den GUI-Editor (Player).
 - ` /donutcrates reload` — Lädt Konfiguration und Daten neu.
 - ` /donutcrates list` — Listet vorhandene Crates auf.
-- ` /keys [player]` — Listet dein Keys/die Keys von [player] auf
+- ` /keys [player]` — Listet deine Keys/die Keys von [player] auf
 
 (Genauere Usage \- Hinweise werden im Spiel als Hilfetexte angezeigt.)
 
